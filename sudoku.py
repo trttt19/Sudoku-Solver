@@ -92,13 +92,13 @@ class Sudoku:
 #sudoku.print_board()
 #sudoku.print_board()
 
-board_str = "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
-# board_str=	"111111111111111111111111111111111111111111111111111111111111111111111111111111111"
-game = Sudoku("easy",board_str)
-game.print_board()
-solverr = solver.Solver(game)
-#domain = solver.ac3( solver.define_arcs())
-#print(solver.domain)
-solverr.solve_ac3()
-#solver.backtracking()
-solverr.sudoko.print_board()
+# board_str = "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
+# # board_str=	"111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+# game = Sudoku("easy",board_str)
+# game.print_board()
+# solverr = solver.Solver(game)
+# #domain = solver.ac3( solver.define_arcs())
+# #print(solver.domain)
+# solverr.solve_ac3()
+# #solver.backtracking()
+# solverr.sudoko.print_board()
